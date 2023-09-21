@@ -1,0 +1,65 @@
+.red-btn {
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient( rgb(174, 2, 2) 60%, rgb(174, 2, 2) 62%);
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 25px 3px rgb(174, 2, 2);
+}
+
+/* pulse wave */
+
+.red-btn:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 2s;
+    animation: pulsate1 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(174, 2, 2, 0.75);
+    top: -30%;
+    left: -30%;
+    background: rgb(174, 2, 2);
+}
+
+@-webkit-keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(174, 2, 2, 0.75), 0px 0px 25px 10px rgba(174, 2, 2, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+    }
+}
+
+@keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(174, 2, 2, 0.75), 0px 0px 25px 10px rgba(174, 2, 2, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,823 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .success-message-text {
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: #4fbe0d;
+        text-align: center;
+    }
+    .modal-content {
+        width: 100%;
+        height: 50%;
+        left: 15%;
+    }
+    .modal-dialog {
+        max-width: 75vw !important;
+        height: 30vh;
+    }
+    .nav-link-covid {
+        font-family: "Nexa Bold" !important;
+        padding: 2%;
+        padding-bottom: .5%;
+        border: 3px solid #fff;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        background: #4fbe0d;
+        color: #fff !important;
+        transition: .5s;
+    }
+    .nav-link-covid:hover {
+        background: #ffffff;
+        border: 3px solid #fff;
+        color: #4fbe0d !important;
+        transition: .5s;
+    }
+    .navbar-nav {
+        height: 100vh;
+        padding-top: 15%;
+        background-color: #4fbe0d;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .nav-bar-seperator {
+        border: 1px solid #fff;
+    }
+    a.nav-link.active {
+        color: #000000 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+    .navbar-nav>li {
+        height: 50px;
+        font-size: 25px;
+    }
+    .padding-desktop {
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+    .section-m {
+        margin-top: 3rem !important;
+    }
+    .section-p {
+        padding-top: .75rem !important;
+    }
+    .careers-email {
+        color: #4fbe0d;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .careers-tagline {
+        color: #484848;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .sectionTwoHeading {
+        font-size: revert;
+    }
+    .text-heading {
+        font-size: 20px;
+    }
+    .text-center {
+        padding-top: 95px;
+        padding-bottom: 97px;
+    }
+    .media-icon {
+        display: none;
+    }
+    svg#play {
+        width: 75px;
+        display: block;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transform-origin: 50% 50%;
+    }
+    svg#play_btn_white {
+        width: 75px;
+        display: block;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transform-origin: 50% 50%;
+    }
+    svg#play_btn_black {
+        width: 75px;
+        display: block;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transform-origin: 50% 50%;
+    }
+    .back-arrow {
+        padding-top: 10px;
+        padding-left: 16px;
+        color: #000;
+    }
+    .arrow-text-alignment {
+        display: contents;
+    }
+    .custom-btn {
+        margin-left: 0%;
+        width: 80%;
+    }
+    .careerSectionOne {
+        font-size: xx-large;
+    }
+    .sectionOneHeading {
+        font-size: revert;
+        font-family: "Nexa Bold";
+        text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgb(0 0 0);
+    }
+    p {
+        font-size: revert;
+    }
+    .home-text {
+        font-size: revert;
+    }
+    .sectionOneText {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    .sectionTwoHeading {
+        font-size: xx-large;
+        font-family: "Nexa Bold";
+    }
+    .sectionTwoList {
+        font-size: revert;
+    }
+    .home-heading {
+        font-family: "Nexa Black" !important;
+        text-align: start;
+        font-size: 20px;
+    }
+    .sectionTwoHeading-careers {
+        font-family: "Nexa Bold";
+        font-size: 40px;
+    }
+    .sectionTwoHeading-portfolio {
+        font-family: "Nexa Bold";
+        font-size: 28px;
+    }
+    .client-logo {
+        width: 50%;
+    }
+    /*   
+  .home-play-btn-sections {
+    width: 15% !important;
+  } */
+    .home-container {
+        /* padding-top: 50px; */
+        width: 100%;
+        /* height: 500px; */
+        overflow: hidden;
+    }
+    .home-mobile {
+        background-size: cover;
+    }
+    .contact-widget {
+        display: none;
+        float: right;
+        text-align: right;
+    }
+    .icon-bar {
+        display: none;
+    }
+    .home-covid {
+        background-size: cover;
+    }
+    .home-covid:hover {
+        background-size: inherit;
+    }
+    .home-web {
+        background-size: cover;
+    }
+    .home-web:hover {
+        background-size: inherit;
+    }
+    .home-software {
+        background-size: cover;
+    }
+    .home-software:hover {
+        background-size: inherit;
+    }
+    .home-socialMedia {
+        background-size: cover;
+    }
+    .home-socialMedia:hover {
+        background-size: inherit;
+    }
+    .home-socialMedia {
+        background-size: cover;
+    }
+    .home-socialMedia:hover {
+        background-size: inherit;
+    }
+    .home-uiux {
+        background-size: cover;
+    }
+    .home-uiux:hover {
+        background-size: inherit;
+    }
+    .home-mobile {
+        background-size: cover;
+    }
+    .home-mobile:hover {
+        background-size: inherit;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .success-message-text {
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: #4fbe0d;
+        text-align: center;
+    }
+    .padding-desktop {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .nav-link-covid {
+        font-family: "Nexa Bold" !important;
+        padding: 2%;
+        padding-bottom: .5%;
+        border: 3px solid #fff;
+        width: 20%;
+        text-align: center;
+        margin: 0 auto;
+        background: #4fbe0d;
+        color: #fff !important;
+        transition: .5s;
+    }
+    .nav-link-covid:hover {
+        background: #ffffff;
+        border: 3px solid #fff;
+        color: #4fbe0d !important;
+        transition: .5s;
+    }
+    .navbar-nav {
+        height: 100vh;
+        padding-top: 5%;
+        background-color: #4fbe0d;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .nav-bar-seperator {
+        border: 1px solid #fff;
+    }
+    a.nav-link.active {
+        color: #000000 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+    .navbar-nav>li {
+        height: 35px;
+        font-size: 15px;
+    }
+    .nav-bar-mobile {
+        display: block;
+    }
+    .section-m {
+        margin-top: 3rem !important;
+    }
+    .section-p {
+        padding-top: 3% !important;
+    }
+    .custom-m-p {
+        margin-top: 5% !important;
+        padding-top: 0% !important;
+    }
+    .careers-email {
+        color: #4fbe0d;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .careers-tagline {
+        color: #484848;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .text-center {
+        padding-top: 95px;
+        padding-bottom: 97px;
+    }
+    .media-icon {
+        display: none;
+    }
+    .back-arrow {
+        padding-top: 10px;
+        padding-left: 16px;
+    }
+    .sectionOneHeading {
+        font-size: revert;
+        font-family: "Nexa Bold";
+        text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgb(0 0 0);
+    }
+    p {
+        font-size: revert;
+        font-family: "Nexa Thin" !important;
+        font-weight: 900;
+    }
+    p.text-regular {
+        font-family: "Nexa Light" !important;
+        font-weight: 900;
+    }
+    .home-text {
+        font-size: revert;
+    }
+    .sectionOneText {
+        font-size: small;
+        padding-right: 10px;
+    }
+    .sectionTwoHeading {
+        font-size: xx-large;
+    }
+    .sectionTwoList {
+        font-size: 20px;
+    }
+    .sectionTwoHeading {
+        font-size: 25px;
+    }
+    .text-heading {
+        font-size: 20px;
+    }
+    .home-heading {
+        font-family: "Nexa Black" !important;
+        text-align: start;
+        font-size: 20px;
+    }
+    .sectionTwoHeading-careers {
+        font-family: "Nexa Bold";
+        font-size: 40px;
+    }
+    .sectionTwoHeading-portfolio {
+        font-family: "Nexa Bold";
+        font-size: 28px;
+        text-shadow: 2px 1px 0px black, 0px 0px 0px rgb(255 255 255);
+    }
+    /* .home-play-btn-sections {
+    width: 15% !important;
+  } */
+    .home-container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .custom-btn {
+        margin-left: 0%;
+        width: 90%;
+    }
+    .contact-widget {
+        display: none;
+        float: right;
+        text-align: right;
+    }
+    .icon-bar {
+        display: none;
+    }
+    .home-covid {
+        background-size: 100%;
+    }
+    .home-web {
+        background-size: 100%;
+    }
+    .home-software {
+        background-size: 100%;
+    }
+    .home-socialMedia {
+        background-size: 100%;
+    }
+    .home-uiux {
+        background-size: 100%;
+    }
+    .home-mobile {
+        background-size: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .success-message-text {
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: #4fbe0d;
+        text-align: center;
+    }
+    .padding-desktop {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .nav-link-covid {
+        font-family: "Nexa Bold" !important;
+        padding: 1%;
+        padding-bottom: .5%;
+        border: 3px solid #fff;
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+        background: #4fbe0d;
+        color: #fff !important;
+        transition: .5s;
+    }
+    .nav-link-covid:hover {
+        background: #ffffff;
+        border: 3px solid #fff;
+        color: #4fbe0d !important;
+        transition: .5s;
+    }
+    .navbar-nav {
+        height: 100vh;
+        padding-top: 5%;
+        background-color: #4fbe0d;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .nav-bar-seperator {
+        border: 1px solid #fff;
+    }
+    a.nav-link.active {
+        color: #000000 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+    .navbar-nav>li {
+        height: 100px;
+        font-size: 30px;
+    }
+    .nav-bar-mobile {
+        display: block;
+    }
+    .custom-m-p {
+        margin-top: 10% !important;
+        padding-top: 10% !important;
+    }
+    .careers-email {
+        color: #4fbe0d;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .careers-tagline {
+        color: #484848;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .text-center {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .media-icon {
+        display: block;
+    }
+    .sectionOneHeading {
+        font-size: revert;
+        font-family: "Nexa Bold";
+        text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgb(0 0 0);
+    }
+    p {
+        font-size: 20px;
+    }
+    .home-text {
+        font-size: revert;
+    }
+    .sectionOneText {
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+    .sectionTwoHeading {
+        font-size: 60px;
+    }
+    .sectionTwoList {
+        font-size: 20px;
+    }
+    .home-heading {
+        font-family: "Nexa Black" !important;
+        text-align: start;
+        font-size: 22px;
+    }
+    .sectionTwoHeading-careers {
+        font-family: "Nexa Bold";
+        font-size: 42px;
+    }
+    .sectionTwoHeading-portfolio {
+        font-family: "Nexa Bold";
+        font-size: 30px;
+        text-shadow: 2px 1px 0px black, 0px 0px 0px rgb(255 255 255);
+    }
+    /* 
+  .home-play-btn-sections {
+    width: 15% !important;
+  } */
+    .home-container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .custom-btn {
+        margin-left: 15%;
+        width: auto;
+    }
+    .contact-widget {
+        display: none;
+        float: right;
+        text-align: right;
+    }
+    .icon-bar {
+        display: none;
+    }
+    .footer h1 {
+        font-family: "Nexa Bold";
+        font-size: 55px;
+    }
+    .footer-email {
+        font-family: "Nexa Light";
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .success-message-text {
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: #4fbe0d;
+        text-align: center;
+    }
+    .padding-desktop {
+        padding-right: 50px !important;
+    }
+    .navbar-nav {
+        padding-top: 0%;
+        height: 32px;
+        background-color: #fff;
+    }
+    a.nav-link.active.pr-5 {
+        color: #4fbe0d !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+    }
+    .navbar-nav>li {
+        height: 0px;
+        font-size: revert;
+        padding-top: 0%;
+    }
+    .nav-bar-mobile {
+        display: none;
+    }
+    .nav-link-covid {
+        font-family: "Nexa Bold" !important;
+        padding-top: 8%;
+        padding-bottom: .5%;
+        border: 3px solid #fff;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background: #4fbe0d;
+        color: #fff !important;
+        transition: .5s;
+    }
+    .section-m {
+        margin-top: 3rem !important;
+    }
+    .section-p {
+        padding-top: 3rem !important;
+    }
+    .careers-email {
+        color: #4fbe0d;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .careers-tagline {
+        color: #484848;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .text-center {
+        padding-top: 125px;
+        padding-bottom: 125px;
+        text-align: center;
+        padding-right: 102px;
+    }
+    .custom-btn {
+        margin-left: 25%;
+        width: auto;
+    }
+    .sectionOneHeading {
+        font-family: "Nexa Bold";
+        font-size: 80px;
+        padding-left: 18%;
+        text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgba(0, 0, 0);
+    }
+    .sectionOneText {
+        font-size: 25px;
+    }
+    .sectionTwoHeading {
+        padding-top: 60px;
+    }
+    .sectionTwoList {
+        font-size: 20px;
+    }
+    .home-heading {
+        font-family: "Nexa Black" !important;
+        text-align: start;
+        font-size: 40px;
+    }
+    .sectionTwoHeading-careers {
+        font-family: "Nexa Bold";
+        font-size: 50px;
+    }
+    .sectionTwoHeading-portfolio {
+        font-family: "Nexa Bold";
+        font-size: 50px;
+        text-shadow: 2px 1px 0px black, 0px 0px 0px rgb(255 255 255);
+    }
+    .home-play-btn-sections {
+        width: 100% !important;
+    }
+    .home-container {
+        padding-top: 50px;
+        width: 800px;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+    }
+    .contact-widget {
+        display: block;
+        float: right;
+        text-align: right;
+    }
+    .icon-bar {
+        display: block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .padding-desktop {
+        padding-right: 50px !important;
+    }
+    .navbar-nav {
+        padding-top: 0%;
+        height: 32px;
+        background-color: #fff;
+    }
+    a.nav-link.active {
+        color: #4fbe0d !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+    }
+    .navbar-nav>li {
+        height: 0px;
+        font-size: revert;
+        padding-top: 0%;
+    }
+    .nav-bar-mobile {
+        display: none;
+    }
+    .nav-link-covid {
+        font-family: "Nexa Bold" !important;
+        padding-top: 8%;
+        padding-bottom: .5%;
+        border: 3px solid #fff;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background: #4fbe0d;
+        color: #fff !important;
+        transition: .5s;
+    }
+    .section-m {
+        margin-top: 3rem !important;
+    }
+    .section-p {
+        padding-top: 3rem !important;
+    }
+    .careers-email {
+        color: #4fbe0d;
+        text-align: center;
+        font-family: "Nexa Bold";
+    }
+    .careers-tagline {
+        color: #484848;
+        text-align: center;
+        font-family: "Nexa Bold";
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .careerSectionOne {
+        font-size: 80px;
+        padding-left: 18%;
+    }
+    .sectionOneText {
+        font-size: 25px;
+    }
+    .text-center {
+        padding-top: 125px;
+        padding-bottom: 50px;
+        padding-right: 102px;
+    }
+    .success-message-text {
+        padding-bottom: 50px;
+        font-size: 18px;
+        color: #4fbe0d;
+        text-align: center;
+    }
+    .custom-btn {
+        margin-left: 33%;
+        width: auto;
+    }
+    .custom-btn:hover {
+        color: #fff;
+    }
+    .careerSectionOne {
+        font-size: 80px;
+        padding-left: 18%;
+    }
+    .sectionOneText {
+        font-size: 25px;
+    }
+    .sectionOneHeading {
+        font-family: "Nexa Bold";
+        font-size: 80px;
+        padding-left: 18%;
+        text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgba(0, 0, 0);
+    }
+    .sectionTwoList {
+        font-size: 20px;
+    }
+    .home-heading {
+        font-family: "Nexa Black" !important;
+        text-align: start;
+        font-size: 40px;
+        font-weight: 900 !important;
+    }
+    .sectionTwoHeading-careers {
+        font-family: "Nexa Bold";
+        font-size: 50px;
+    }
+    .sectionTwoHeading-portfolio {
+        font-family: "Nexa Bold";
+        font-size: 50px;
+        text-shadow: 2px 1px 0px black, 0px 0px 0px rgb(255 255 255);
+    }
+    .home-play-btn-sections {
+        width: 100% !important;
+    }
+    .home-container {
+        padding-top: 50px;
+        width: 800px;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+    }
+    .icon-bar {
+        display: block;
+    }
+    .contact-widget {
+        display: block;
+        float: right;
+        text-align: right;
+    }
+    .footer-email {
+        font-family: "Nexa Light";
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}

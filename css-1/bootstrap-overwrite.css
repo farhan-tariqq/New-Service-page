@@ -1,0 +1,47 @@
+/*Navigation Menu*/
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+a.nav-link.active.pr-5 {
+    color: #1a6bb4 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(33 37 41);
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-top: 0px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 0px solid rgba(0, 0, 0, 0.5);
+    border-left: 0px solid rgba(0, 0, 0, 0.5);
+    border-right: 0px solid rgba(0, 0, 0, 0.5);
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    padding-top: 9px;
+    padding-bottom: 26px;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-nav>li {
+    border-right: 1px solid white;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 32px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+/*Navigation End*/
